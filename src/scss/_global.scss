@@ -12,6 +12,13 @@ html,
 body {
   height: 100%;
   position: relative;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto";
+  font-weight: normal;
+  color: #3d464d;
+  fill: #3d464d;
 }
 
 ul,
@@ -26,6 +33,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {
@@ -33,6 +41,14 @@ a {
 }
 
 button:focus,
-input:focus {
+input:focus,
+select {
   outline: transparent;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
